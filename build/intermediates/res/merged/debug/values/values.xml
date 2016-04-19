@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_bg_normal">#55b1d9</color>
+    <color name="color_bg_selected">#d8e2f2</color>
+    <color name="color_text_normal">#ffffff</color>
+    <color name="color_text_selected">#000000</color>
+    <color name="transparent">#000000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="GetEasy">GetEasy</string>
+    <string name="about">关于我们</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Interface_activity</string>
+    <string name="first_botton">点击连接服务器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="local">本地文档</string>
+    <string name="remote">远程文档</string>
+    <string name="send">发送</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_t">TActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/G_actionbar_style</item>
+    </style>
+    <style name="G_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+</resources>

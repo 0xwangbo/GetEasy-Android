@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.interface_activity.MainActivity" >
+
+        <TextView
+            android:id="@+id/bottontextid"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#55B1D9"
+            android:gravity="center"
+            android:text="@string/first_botton"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/Listviewid"
+            android:layout_above="@id/bottontextid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </ListView>
+
+
+
+</RelativeLayout>

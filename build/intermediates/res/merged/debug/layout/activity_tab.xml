@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.interface_activity.HomeActivity" >
+	<FrameLayout
+	    android:id="@+id/mhomecontent"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/mhomeradiogroup"
+	    />
+        <RadioGroup
+            android:gravity="center_vertical"
+            android:layout_gravity="bottom"
+            android:id="@+id/mhomeradiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/mremoteradiobutton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/radio_group_selector"
+                android:button="@color/transparent"
+                android:gravity="center"
+                android:text="@string/remote"
+                android:textColor="@drawable/color_radiobutton" />
+
+            <RadioButton
+                android:id="@+id/mlocalradiobutton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/radio_group_selector"
+                android:button="@color/transparent"
+                android:gravity="center"
+                android:text="@string/local"
+                android:textColor="@drawable/color_radiobutton" />
+
+            <RadioButton
+                android:id="@+id/maboutradiobutton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/radio_group_selector"
+                android:button="@color/transparent"
+                android:gravity="center"
+                android:checked="true"
+                android:text="@string/about"
+                android:textColor="@drawable/color_radiobutton" />
+        </RadioGroup>
+</RelativeLayout>

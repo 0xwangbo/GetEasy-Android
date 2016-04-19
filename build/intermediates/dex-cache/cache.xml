@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\work\javacode\GetEasy\libs\ftp4j-1.7.2.jar"
+        jumboMode="false"
+        revision="24.0.0 rc1"
+        sha1="abd6a2ba75b142926052c4538611efda49e0b0e2">
+        <dex dex="F:\work\javacode\GetEasy\build\intermediates\pre-dexed\debug\ftp4j-1.7.2_ac4bd3469841a2833c9fda699cfb1c1607bf6001.jar" />
+    </item>
+    <item
+        jar="F:\work\Android_SdkAndStudio\Andrroid_SDK\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc1"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="F:\work\javacode\GetEasy\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_1c708d87a06eccb22957b443c78d1c64e03a7eb0.jar" />
+    </item>
+    <item
+        jar="F:\work\javacode\GetEasy\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc1"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="F:\work\javacode\GetEasy\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_1edd292c69fc0b4a0a8eaecdac7de1efeba0af90.jar" />
+    </item>
+    <item
+        jar="F:\work\javacode\GetEasy\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc1"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="F:\work\javacode\GetEasy\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_6cc8713ab16be6c64c09040bcfc4150dea490f67.jar" />
+    </item>
+
+</items>
